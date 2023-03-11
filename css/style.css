@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+    font-size: 110%;
+    /* font-family: 'Roboto'; */
+    font-weight: 400;
+  }
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic.ttf') format('embedded-opentype'),
+    url('../fonts/Roboto-Italic.woff') format('woff'),
+    url('../fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+} */
+
+  ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 50px; 
+    background-color: rgba(123, 121, 97, 0.762);
+    padding-bottom: 5px;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 1s;
+    border-radius: 10px;
+  }
+  
+  li {
+    float:left; 
+    display: block;
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+  li:first-child{
+    min-width: 23%;
+  }
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+  .contant_bot{
+    background-color: rgba(241, 236, 192, 0.762);
+  }
+
+  .bot{
+    margin: 0 auto;
+    padding: 0px 100px;
+    display: flex;
+  }
+
+  .bot .inf{
+    width: 40%;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  .bot .information{
+    padding: 50px;
+    margin-right: 15%;
+    background-color: rgba(123, 121, 97, 0.762);
+    border-radius: 10px;
+  }
+
+  .bot .input_output{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  
+  .bot .input_text .text_input{
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .bot .input_text a{
+    width: 80px;
+    padding: 0px;
+    background-color: rgba(123, 121, 97, 0.762);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .bot .input_text a:hover{
+    background-color: rgba(241, 236, 192, 0.762);
+  }
+
+  .bot .input_text .button{
+    width: 80px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .output_text{
+    padding: 50px;
+  }
+
+  .output_text .text{
+    padding: 30px;
+    border: solid black;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .main{
+    background-color: rgb(225, 228, 179);
+  }
+  textarea{
+    resize: none;
+    height: 500px;
+    padding: 30px;
+  }
